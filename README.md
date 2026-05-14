@@ -6,13 +6,12 @@ Compiler Version: GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_
 ## How To Run
 
 ### Placeholders (Do not include in-equality symbols <>)
-
-- <exe_filename>	| Desired exectuable filename
-- <iterations>		| Positive integer -> number of iterations, 0 -> errorate of $(10**-5),
---			|	Negative integer -> errorate of $(10**<iterations>)
-- <initial_value>	| Initial Vector Values (0 -> 0, 1 -> 1, -1 -> $(1/N), -2 $(1/(N**0.5)) 
-- <graph_filename>	| Prexisiting filename containing a directed graph represented through
-			|	an adjacency list representation
+| Parameter | Description |
+| --- | --- |
+| `<exe_filename>`		| Desired exectuable filename |
+| `<iterations>`		| Positive integer -> number of iterations, 0 -> errorate of \$ (10**-5), <br> Negative integer -> errorate of $(10**<iterations>)
+| `<initial_value>`		| Initial Vector Values (0 -> 0, 1 -> 1, -1 -> \$ (1/N), -2 \$ (1/(N**0.5)) 
+| `<graph_filename>`	| Prexisiting filename containing a directed graph represented through an adjacency list representation
 
 ### pgrk.c | PageRank
 
