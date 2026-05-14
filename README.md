@@ -1,4 +1,4 @@
-# Page-Rank
+# PageRank
 
 Compilation Instructions
 Compiler Version: GNU C17 (GCC) version 11.5.0 20240719 (Red Hat 11.5.0-5) (x86_64-redhat-linux)
